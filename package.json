@@ -1,0 +1,19 @@
+{
+  "name": "bollinger-bands-script",
+  "version": "1.0.0",
+  "description": "Fetches historical candles from Upstox and reports Bollinger Band touch events",
+  "main": "bollinger-bands-script.js",
+  "scripts": {
+    "start": "node ./bollinger-bands-script.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "moment": "^2.30.1",
+    "mongodb": "^7.5.0",
+    "redis": "^4.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
